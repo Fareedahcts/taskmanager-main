@@ -1,0 +1,8 @@
+[[services]]
+name = "myapp"
+http_ports = [8080]
+processes = ["app"
+
+[[processes]]
+name = "app"
+command = "npm start"
