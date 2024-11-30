@@ -1,6 +1,6 @@
 [[services]]
 name = "myapp"
-http_ports = [8080]
+http_ports = [5001]
 
 [[processes]]
 name = "app"
